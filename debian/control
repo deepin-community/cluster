@@ -1,0 +1,21 @@
+Source: cluster
+Section: gnu-r
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper-compat (= 11), r-base-dev (>= 4.1.1), dh-r
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/edd/r-cran-cluster
+Vcs-Git: https://salsa.debian.org/edd/r-cran-cluster.git
+Homepage: https://cran.r-project.org/package=cluster
+
+Package: r-cran-cluster
+Architecture: any
+Depends: ${R:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Replaces: r-recommended (<< 1.9.0)
+Description: GNU R package for cluster analysis by Rousseeuw et al
+ This package provides functions and datasets for cluster analysis originally
+ written by Peter Rousseeuw, Anja Struyf and Mia Hubert.
+ .
+ This package is part of the set of packages that are 'recommended' 
+ by R Core and shipped with upstream source releases of R itself.
+

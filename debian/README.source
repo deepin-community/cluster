@@ -1,0 +1,23 @@
+
+Explanation for binary files inside source package according to
+  http://lists.debian.org/debian-devel/2013/09/msg00332.html
+
+Files: data/chorSub.rda
+Documentation: man/chorSub.Rd
+  ->  This is a small rounded subset of the C-horizon data
+      chorizon}} from package mvoutlier.
+      Source: Kola Project (1993-1998)
+
+Files: data/plantTraits.rda
+Documentation: man/plantTraits.Rd
+  ->  This dataset constitutes a description of 136 plant species
+      according to biological attributes (morphological or reproductive).
+      Source:  Vallet, Jeanne (2005)
+      
+Files: data/xclara.rda
+Documentation: man/xclara.Rd
+  ->  An artificial data set consisting of 3000 points in 3 quite well-separated
+      clusters.
+      Source: Struyf, Hubert and Rousseeuw (1996)
+
+ -- Dirk Eddelbuettel <edd@debian.org>, Mon,  2 Apr 2018 07:49:51 -0500
